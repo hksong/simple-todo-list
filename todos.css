@@ -31,6 +31,16 @@ ul li {
   margin-bottom:1px;
   padding:8px 20px;
   font-size:22px;
+  position: relative;
+}
+
+ul li span {
+  position: absolute;
+  right: 8px;
+}
+
+ul li span:hover {
+  color: red;
 }
 
 .completed {
